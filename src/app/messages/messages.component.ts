@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { MessageService } from '../message.service';
 
 @Component({
   selector: 'app-messages',
@@ -9,5 +10,5 @@ import { CommonModule } from '@angular/common';
   styleUrl: './messages.component.css'
 })
 export class MessagesComponent {
-
+  constructor(public messageService: MessageService) {}
 }
