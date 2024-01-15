@@ -20,11 +20,11 @@ import { HeroSearchComponent } from './hero-search/hero-search.component';
     HeroDetailComponent,
     DashboardComponent,
     HeroSearchComponent,
+    MessagesComponent,
   ],
   imports: [
     BrowserModule,
     FormsModule,
-    MessagesComponent,
     AppRoutingModule,
     HttpClientModule,
     HttpClientInMemoryWebApiModule.forRoot(
